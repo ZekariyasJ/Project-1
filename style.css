@@ -1,0 +1,94 @@
+body{
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    padding-bottom: 500px;
+}
+#header{
+    position: sticky;
+    top: 4px;
+}
+#header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+#header li{
+    float: left;
+}
+#header li a{
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#header li a:hover {
+    background-color: #111;
+  }
+  #header li:active {
+      background-color: green;
+  }
+#container{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    width: 65%;
+    
+    
+}
+#container h2{
+    color: blue;
+    font-style: oblique;
+}
+#Home {
+    padding-left: 6px;
+    border-left-style: solid;
+    border-width: 5px;
+    border-color: green;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, black, rgb(95, 228, 124));
+}
+#Sample {
+    padding-left: 6px;
+    border-left-style: solid;
+    border-width: 5px;
+    border-color: yellow;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, black, rgb(221, 231, 81));
+}
+#About {
+    padding-left: 6px;
+    border-left-style: solid;
+    border-width: 5px;
+    border-color: red;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, black, rgb(247, 8, 8));
+}
+#side_bar{
+   float: right;
+   width: 33.33%;
+   padding-left: 5px;
+   border-radius: 5px;
+}
+#Telegram{
+    background-image: linear-gradient(to right lightseagreen, rgb(61, 167, 161));
+    box-sizing: content-box;
+    font-weight: bold;
+    padding-left: 5px;
+    color: white;
+}
+#Telegram a{
+    display: block;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+  #footer{
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 10px;
+  }
